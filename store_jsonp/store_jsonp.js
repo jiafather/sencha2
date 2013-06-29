@@ -23,7 +23,7 @@ Ext.application({
 			flex : 1,
 			store : userStore,
 			itemTpl : '<div>{no} {name} {age} {tel}</div>'
-		});
+	 	});
 		var toolBar = Ext.create('Ext.TitleBar',{
 			docked : 'top',
 			title : '직원정보목록(무두)',

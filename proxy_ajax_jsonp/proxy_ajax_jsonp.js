@@ -17,7 +17,7 @@ Ext.application({
 			}
 		});
 		
-		
+		 
 		var template = Ext.create('Ext.XTemplate',
 				'<div>번호 : {jno} 이름 :  {jname}</div>');
 		var panel = Ext.create('Ext.Panel',{

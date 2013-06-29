@@ -12,5 +12,5 @@ String jno = request.getParameter("jno");
 	[
 		{"jno":"10", "jname":"주성치"}
 	]
-	<%} %>
+	<%} %> 
 }

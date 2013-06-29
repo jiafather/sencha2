@@ -1,4 +1,4 @@
-Ext.application({
+Ext.application({ 
 	requires:['Ext.Toolbar', 'Ext.Ajax'],	
 	launch : function(){
 		var eventHandler = function(button, event){

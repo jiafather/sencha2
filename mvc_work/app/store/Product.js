@@ -1,0 +1,23 @@
+Ext.define('MyApp.store.Product',{
+	extend:'Ext.data.Store',
+	requires:[
+	    'MyApp.model.Contact2'
+	],
+	
+	config:{
+		autoLoad:true,
+		model:'MyApp.model.Contact2',
+		storeId:'product',
+		proxy:{
+			type:'ajax',
+			url:'product.json',
+			reader:{
+				type:'json',
+				rootProperty:'datas'
+			}
+		},
+		sorters:{
+			property:'irum'
+		}
+	}
+});

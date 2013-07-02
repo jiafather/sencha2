@@ -1,0 +1,16 @@
+Ext.define('MyApp.model.Contact2',{
+	extend:'Ext.data.Model',
+	config:{
+		fields:[
+		        {
+		        	name:'sang',type:'string'
+		        },
+		        {
+		        	name:'su',type:'string'
+		        },
+		        {
+		        	name:'dan',type:'string'
+		        }
+		]
+	}
+});
